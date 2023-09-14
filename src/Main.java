@@ -52,7 +52,8 @@ public class Main {
 
 
     public static String desEncrypt() throws Exception {
-        String encrypted = encrypt() ;
+       // String encrypted = encrypt() ;
+        String encrypted = "KfeSdTmJMc2MGHxTjN3/38G0bY/BctvlVbILV6n1Q5eI1BRHCooR2Ut43+ZgqrIH";
         try
         {
             String data = encrypted;
@@ -69,7 +70,7 @@ public class Main {
 
             byte[] original = cipher.doFinal(encrypted1);
             String originalString = new String(original);
-            return originalString;
+            return originalString.trim();
         }
         catch (Exception e) {
             e.printStackTrace();
