@@ -52,8 +52,8 @@ public class Main {
 
 
     public static String desEncrypt() throws Exception {
-       // String encrypted = encrypt() ;
-        String encrypted = "KfeSdTmJMc2MGHxTjN3/38G0bY/BctvlVbILV6n1Q5eI1BRHCooR2Ut43+ZgqrIH";
+        String encrypted = encrypt() ;
+
         try
         {
             String data = encrypted;
